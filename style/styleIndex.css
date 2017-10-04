@@ -1,0 +1,156 @@
+body{
+    width: 80%;
+    margin: 0 auto;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+.name_container{
+    width: 80%;
+    height: 60px;
+    margin: 0 auto;
+
+}
+.name_container h2{
+    float: left;
+    border-left: 5px solid red;
+    padding: 0 10px;
+
+}
+.name_container input{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 0;
+    background: red;
+    color: white;
+    padding: 5px 10px;
+}
+
+.container .carousel-inner .item{
+    position: relative;
+    padding: 0;
+}
+.container .carousel-inner .item img{
+    display: block;
+    padding: 5px;
+}
+.carousel-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(rgba(252, 218, 213, .1), rgba(245, 168, 154, 1));
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .2s ease;
+}
+.item:hover .carousel-caption {
+    height: 50%;
+}
+.carousel-caption h3,p{
+    white-space: nowrap;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.carousel-inner img{
+    height: 415px;
+ }
+
+
+.container-item {
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(rgba(252, 218, 213, .1), rgba(245, 168, 154, 1));
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .2s ease;
+
+}
+.container-item:hover .overlay {
+    height: 50%;
+}
+.overlay h3,p{
+    white-space: nowrap;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.carousel .carousel-inner .item .container-item{
+    padding: 0;
+}
+.carousel-control{
+    width: 5%;
+
+}
+.header{
+}
+.header .menu{
+    background-color: black;
+}
+.header .den{
+    padding: 2px;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+.den img{
+    border-radius: 50%;
+
+}
+
+.container-fluid ul li a{
+    padding:0;
+}
+.navbar-right{
+    padding-top:25px;
+}
+.navbar-inverse{
+    height: 90px;
+}
+.text-right a{
+    background: red;
+    padding: 5px 20px;
+    margin: 5px;
+
+
+}
+.text-right a:hover{
+    background: brown;
+}
+.input-group{
+
+}
+.input-group button{
+    background: red;
+}
+.input-group button:hover{
+    background: brown;
+}
+footer{
+    margin-top: 20px;
+    clear: both;
+    padding: 10px;
+}
+.col-md-7{
+    padding-top: 20px;
+}

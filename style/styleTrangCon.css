@@ -1,0 +1,15 @@
+.imgFood{
+    margin-top: 140px;
+    margin-bottom: 10px;
+}
+.panel-default .panel-body img{
+    width: 205px;
+    height: 272px;
+}
+.poly-prod .panel h4,.panel-footer{
+    text-align: center;
+    font-weight: bold;
+}
+.col-sm-9,.col-sm-3{
+    margin-top: 20px;
+}
