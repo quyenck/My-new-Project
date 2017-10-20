@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <title>Layout</title>
+        <link rel="stylesheet" href="css/css.css">
+        <link rel="stylesheet" href="Nhom5.css">
+    </head>
+</head>
+<body>
+<div class="container containerEx" style = "height: auto">
+    <header class="row">
+        <div class = "Food.com">
+
+            <h1 style="padding-left: 20px;">FOOD.COM</h1>
+            <h4 style="padding-left: 20px;">Món ngon mỗi ngày</h4>
+        </div>
+
+    </header>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home"></span> Trang chủ</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Thực đơn <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="thucdon/monnuong.html">Món nướng</a></li>
+                            <li><a href="thucdon/moncuon.html">Món cuốn</a></li>
+                            <li><a href="thucdon/monlau.html">Món lẩu</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="thucdon/pho.html">Phở</a></li>
+                            <li><a href="thucdon/che.html">Chè</a></li>
+                            <li><a href="thucdon/bun.html">Bún</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Các món được yêu thích</a></li>
+                    <li><a href="lienhe/lienhe.html">Liên hệ</a></li>
+                </ul>
+                </li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li> <form>
+                        <input class="btnSearch" type="text" name="search" placeholder="Tìm kiếm" size="30"/>
+                    </form>
+                    </li>
+
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <div class = "row">
+        <article class="col-sm-9">
+            <div class = "col-sm-4 poly-prod">
+                <div class = "panel panel-default">
+                    <div class = "panel-heading">
+                        <h4 class = "panel-title">
+                            Món Nướng
+                        </h4>
+                    </div>
+                    <div class = "panel-body panel-food">
+                        <img src="http://gl.amthuc365.vn/uploads/content/2012-08-30.03.49.29-thitnuong.jpg" width="100%" height="200px"/>
+
+                    </div>
+                    <div class = "panel-footer">
+                        300.000 VND
+                    </div>
+                </div>
+            </div>
+            <div class = "col-sm-4 poly-prod">
+                <div class = "panel panel-default">
+                    <div class = "panel-heading">
+                        <h4 class = "panel-title">
+                            Món Cuốn
+                        </h4>
+                    </div>
+                    <div class = "panel-body panel-food">
+                        <img src="http://tieudungplus.vn/media/uploaded/5/2015/12/09/cach-lam-pho-cuon-1.jpg" width="100%"/>
+                    </div>
+                    <div class = "panel-footer">
+                        300.000 VND
+                    </div>
+                </div>
+            </div>
+            <div class = "col-sm-4 poly-prod">
+                <div class = "panel panel-default">
+                    <div class = "panel-heading">
+                        <h4 class = "panel-title">
+                            Món Lẩu
+                        </h4>
+                    </div>
+                    <div class = "panel-body panel-food">
+                        <img src="https://media.cooky.vn/images/blog/goi-y-10-mon-lau-cho-tiec-cuoi-nam-8.jpg" width="100%"/>
+                    </div>
+                    <div class = "panel-footer">
+                        300.000
+                    </div>
+                </div>
+            </div>
+            <div class = "col-sm-4 poly-prod">
+                <div class = "panel panel-default">
+                    <div class = "panel-heading">
+                        <h4 class = "panel-title">
+                            Bò cuốn lá cải
+                        </h4>
+                    </div>
+                    <div class = "panel-body panel-food">
+                        <img src="data:image/jpeg;base64,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" height="220" width="220"/></div>
+                    <div class = "panel-footer">
+                        VND 300.000
+                    </div>
+                </div>
+            </div>
+            <div class = "col-sm-4 poly-prod">
+                <div class = "panel panel-default">
+                    <div class = "panel-heading">
+                        <h4 class = "panel-title">
+                            Chè
+                        </h4>
+                    </div>
+                    <div class = "panel-body panel-food">
+                        <img src="https://media.foody.vn/res/g24/236660/prof/s640x400/foody-mobile-t1-jpg-454-635991657750210233.jpg" height="220" width="220"/></div>
+                    <div class = "panel-footer">
+                        VND 25.000
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 poly-prod">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            Phở
+                        </h4>
+                    </div>
+                    <div class="panel-body panel-food">
+                        <img src="http://imgs.vietnamnet.vn/Images/2016/03/16/14/20160316143706-pho-co.jpg"
+                             width="100%"/>
+                    </div>
+                    <div class="panel-footer">
+                        VND 50.000
+                    </div>
+                </div>
+            </div>
+        </article>
+        <aside class="col-sm-3">
+            <div class = "hotdeal">
+                <div class="panel panel-default">
+                    <div class="panel-body panel-food" style="height: 300px">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh3Pk4nW51mzed5LRA3lT5yXnaKSeV9dmy4kImyepaFl1BzPt3"height="500px" width="240px"/>
+                    </div>
+                    <ul class="col-sm-7">
+                        <br/>
+                        <a href="food.html"><h6>Khám phá cách nấu ăn</h6></a>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <footer class="panel panel-default">
+        <div class = "panel-heading text-center">
+            <h5>Nhóm 5 - Woman in STEM  &copy; 2017</h5>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

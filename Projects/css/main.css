@@ -1,0 +1,56 @@
+.btnSearch
+{
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin-top: 15px;
+    max-height: 20px;
+}
+.frmSearch
+{
+    height: 18px;
+}
+.containerEx {
+    width: 100%;
+    padding-right: 10px!important;
+    padding-left: 10px!important;
+}
+.container {
+    border: none;
+    background-color: white;
+
+}
+.h5{
+    font-style: italic
+}
+.poly-prod{
+    text-align:center;
+    padding:5px;
+    background-color: white;
+}
+
+.poly-prod .panel-body img{
+    max-height: 150px;
+    width: 100%;
+}
+.poly-prod .panel-heading {
+    font-size: medium;
+    border-bottom-width: thin;border-bottom-color: darkcyan;
+    background-color:orange;
+
+}
+
+
+.navbar {}
+.poly-prod{
+    float: left;
+}
+.col-sm-3 {
+    float: right;
+}
+
+
+
+div.panel-body.panel-food {
+    padding: 0;
+}
